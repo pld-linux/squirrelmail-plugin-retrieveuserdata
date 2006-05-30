@@ -1,0 +1,22 @@
+--- passwd.php~	2003-02-03 01:03:58.000000000 +0100
++++ passwd.php	2005-08-09 16:53:30.683819224 +0200
+@@ -10,7 +10,9 @@
+    */
+ 
+   function retrieve_data ($uid, $passwd) {
+-  
++
++    global $domain;
++
+     $error = 0;
+     
+     $result = posix_getpwnam( $uid );
+@@ -21,7 +23,7 @@
+        $error = 1;
+     }
+       
+-    return array('error'=>$error, 'common_name'=>$common_name, 'mail_address'=>'');
++    return array('error'=>$error, 'common_name'=>$common_name, 'mail_address'=>$uid . '@' . $domain);
+ 
+   }
+    
