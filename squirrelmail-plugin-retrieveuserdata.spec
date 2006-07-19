@@ -10,7 +10,7 @@ Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}.%{version}-%{mversion}.tar.gz
 # Source0-md5:	dfe469f7ab473fd2292b30800e3141d5
 Patch0:		%{name}-passwd.patch
-URL:		http://www.squirrelmail.org/
+URL:		http://www.squirrelmail.org/plugin_view.php?id=11
 Requires:	squirrelmail >= 1.4.6-2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
