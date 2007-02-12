@@ -1,7 +1,7 @@
 %define		_plugin	retrieveuserdata
 %define		mversion	1.4.0
 Summary:	Plugin for retrieving user data from external sources
-Summary(pl.UTF-8):   Wtyczka do pobierania danych użytkowników z zewnętrznych źródeł
+Summary(pl.UTF-8):	Wtyczka do pobierania danych użytkowników z zewnętrznych źródeł
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	0.9
 Release:	1
