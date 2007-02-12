@@ -1,7 +1,7 @@
 %define		_plugin	retrieveuserdata
 %define		mversion	1.4.0
 Summary:	Plugin for retrieving user data from external sources
-Summary(pl):	Wtyczka do pobierania danych u¿ytkowników z zewnêtrznych ¼róde³
+Summary(pl.UTF-8):   Wtyczka do pobierania danych uÅ¼ytkownikÃ³w z zewnÄ™trznych ÅºrÃ³deÅ‚
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	0.9
 Release:	1
@@ -24,10 +24,10 @@ SquirrelMail user from an external source and writes them to the
 user's preferences. Your users don't have to enter their name and
 email address before they write their first email.
 
-%description -l pl
-Ta wtyczka pobiera pe³ne imiê i nazwisko oraz adres email u¿ytkownika
-Wiewiórczej Poczty z zewnêtrznego ¼ród³a i zapisuje je w ustawieniach.
-U¿ytkownicy nie bêd± musieli wpisywaæ swoich danych przed wys³aniem
+%description -l pl.UTF-8
+Ta wtyczka pobiera peÅ‚ne imiÄ™ i nazwisko oraz adres email uÅ¼ytkownika
+WiewiÃ³rczej Poczty z zewnÄ™trznego ÅºrÃ³dÅ‚a i zapisuje je w ustawieniach.
+UÅ¼ytkownicy nie bÄ™dÄ… musieli wpisywaÄ‡ swoich danych przed wysÅ‚aniem
 swojego pierwszego maila.
 
 %prep
